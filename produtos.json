@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "nome": "Mouse Gamer RGB",
+        "categoria": "Periféricos",
+        "preco": 129.9,
+        "estoque": 45
+    },
+    {
+        "id": 2,
+        "nome": "Teclado Mecânico",
+        "categoria": "Periféricos",
+        "preco": 299.9,
+        "estoque": 30
+    },
+    {
+        "id": 3,
+        "nome": "Monitor 24 polegadas Full HD",
+        "categoria": "Monitores",
+        "preco": 849.0,
+        "estoque": 18
+    },
+    {
+        "id": 4,
+        "nome": "SSD NVMe 512GB",
+        "categoria": "Armazenamento",
+        "preco": 289.9,
+        "estoque": 60
+    },
+    {
+        "id": 5,
+        "nome": "Memória RAM DDR4 8GB",
+        "categoria": "Hardware",
+        "preco": 159.9,
+        "estoque": 80
+    },
+    {
+        "id": 6,
+        "nome": "Placa de Vídeo RTX 3060",
+        "categoria": "Hardware",
+        "preco": 1999.0,
+        "estoque": 7
+    },
+    {
+        "id": 7,
+        "nome": "Processador Ryzen 5 5600",
+        "categoria": "Hardware",
+        "preco": 749.9,
+        "estoque": 15
+    },
+    {
+        "id": 8,
+        "nome": "Webcam Full HD",
+        "categoria": "Periféricos",
+        "preco": 189.9,
+        "estoque": 25
+    },
+    {
+        "id": 9,
+        "nome": "Roteador Wi-Fi 6",
+        "categoria": "Redes",
+        "preco": 349.9,
+        "estoque": 22
+    },
+    {
+        "id": 10,
+        "nome": "Mouse wifi",
+        "categoria": "Informatica",
+        "preco": 100.0,
+        "estoque": 50
+    },
+    {
+        "id": 11,
+        "nome": "Mouse gamer fx320",
+        "categoria": "Hardware",
+        "preco": 127.99,
+        "estoque": 30.0
+    },
+    {
+        "id": 12,
+        "nome": "Mouse roxo",
+        "categoria": "Hardware",
+        "preco": 200.0,
+        "estoque": 40.0
+    }
+]
