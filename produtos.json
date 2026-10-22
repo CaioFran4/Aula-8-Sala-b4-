@@ -64,23 +64,16 @@
     },
     {
         "id": 10,
+        "nome": "Headset USB com Microfone",
+        "categoria": "Periféricos",
+        "preco": 219.9,
+        "estoque": 35
+    },
+    {
+        "id": 11,
         "nome": "Mouse wifi",
         "categoria": "Informatica",
         "preco": 100.0,
         "estoque": 50
-    },
-    {
-        "id": 11,
-        "nome": "Mouse gamer fx320",
-        "categoria": "Hardware",
-        "preco": 127.99,
-        "estoque": 30.0
-    },
-    {
-        "id": 12,
-        "nome": "Mouse roxo",
-        "categoria": "Hardware",
-        "preco": 200.0,
-        "estoque": 40.0
     }
 ]

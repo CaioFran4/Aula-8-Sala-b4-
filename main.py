@@ -106,7 +106,7 @@ def rev_produto():
 
     if produto_remover:
         produtos.remove(produto_remover)
-        print(f"\nProduto '{produto_remover['nome']}' removido com sucesso!")
+        print(f"\n✅ Produto '{produto_remover['nome']}' removido com sucesso!")
 
         for indice, p in enumerate(produtos):
             p['id'] = indice + 1
@@ -114,8 +114,28 @@ def rev_produto():
         salvar_produtos(produtos)
         print("IDs reorganizados conforme a remoção\n")
     else:
-        print("Produto não encontrado.\n")
+        print("❌ Produto não encontrado.\n")
 
+def esvaziar_estoque():
+    print("----> ESVAZIANDO TODO O ESTOQUE <----")
+    senha_correta = "12345678910" 
+    
+
+    r_estoque = input("Gostaria realmente de esvaziar TODO o estoque? (digite 'sim' para continuar): ").strip().lower()
+    
+    if r_estoque != "sim":
+        print("❌ Operação cancelada. Confirmação incorreta.\n")
+        return
+
+
+    confir = input("Digite a senha de administrador para esvaziar os lotes: ").strip()
+    
+    if confir == senha_correta:
+        produtos.clear()    
+        salvar_produtos(produtos)
+        print("✅ Sucesso. O estoque foi completamente esvaziado e o sistema foi atualizado.\n")
+    else:
+        print("❌ Senha incorreta. Operação cancelada por segurança.\n")
 
                
 
@@ -133,6 +153,7 @@ while True:
     print("----- 4 - Mostrar por Categoria-----")
     print("----- 5 - Mostrar por Preço-----")
     print("----- 6 - Procurar por Estoque(Alto ou Baixo Estoque)-----")
+    print("----- 7 - Esvaziar Estoque(Somente com senha)-----")
     print("----- 0 - Encerrar Sistema-----")
 
     opcao = input("Escolha uma das opções a seguir: ")
@@ -154,6 +175,9 @@ while True:
 
     elif opcao == "6":
         analisar_estoque()
+
+    elif opcao == "7":
+        esvaziar_estoque()
     
     elif opcao == "0":
         print("----> Encerrando Sistema <----")
